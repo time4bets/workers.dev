@@ -1,11 +1,95 @@
 {
-  "status": "rewritten",
-  "date": "2026-05-13",
+  "source_root": "time4bets 9",
+  "optimized_images": {
+    "app-hero.webp": {
+      "width": 1300,
+      "height": 741,
+      "bytes": 60642
+    },
+    "app-screenshot.webp": {
+      "width": 800,
+      "height": 1071,
+      "bytes": 39922
+    },
+    "crypto-deposit.webp": {
+      "width": 1000,
+      "height": 686,
+      "bytes": 112582
+    },
+    "hero-banner.webp": {
+      "width": 1500,
+      "height": 643,
+      "bytes": 84320
+    },
+    "live-casino.webp": {
+      "width": 1500,
+      "height": 576,
+      "bytes": 76256
+    },
+    "logo.webp": {
+      "width": 360,
+      "height": 120,
+      "bytes": 3450
+    },
+    "promotions-banner.webp": {
+      "width": 1500,
+      "height": 450,
+      "bytes": 61624
+    },
+    "register-hero.webp": {
+      "width": 1300,
+      "height": 741,
+      "bytes": 50272
+    },
+    "register-steps.webp": {
+      "width": 1000,
+      "height": 686,
+      "bytes": 31550
+    },
+    "review-games.webp": {
+      "width": 1000,
+      "height": 686,
+      "bytes": 93252
+    },
+    "review-hero.webp": {
+      "width": 1300,
+      "height": 741,
+      "bytes": 71732
+    },
+    "sports-betting.webp": {
+      "width": 1000,
+      "height": 686,
+      "bytes": 98724
+    },
+    "vip-program.webp": {
+      "width": 1000,
+      "height": 686,
+      "bytes": 66368
+    },
+    "welcome-bonus.webp": {
+      "width": 1500,
+      "height": 500,
+      "bytes": 82888
+    },
+    "withdrawal-hero.webp": {
+      "width": 1300,
+      "height": 741,
+      "bytes": 83230
+    },
+    "withdrawal-methods.webp": {
+      "width": 1100,
+      "height": 550,
+      "bytes": 42534
+    }
+  },
   "changes": [
-    "Global text rewrite for English and Arabic pages",
-    "Reordered content sections across major pages",
-    "Kept existing image assets only",
-    "Preserved redirect page behavior",
-    "Kept PageSpeed/mobile/accessibility fixes"
+    "removed __MACOSX, .DS_Store and AppleDouble files",
+    "optimized existing WebP images in place without generating -960/-1200 variants",
+    "converted hero background images into prioritized <img> elements",
+    "added preload/fetchpriority for hero LCP images",
+    "added width/height, decoding and lazy loading attributes",
+    "removed Google Fonts network requests to improve FCP/LCP",
+    "minified inline/external CSS and added content-visibility for below-fold sections",
+    "kept clean URL files and play-and-win redirect page"
   ]
 }
