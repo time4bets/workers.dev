@@ -1,0 +1,11 @@
+{
+  "status": "rewritten",
+  "date": "2026-05-13",
+  "changes": [
+    "Global text rewrite for English and Arabic pages",
+    "Reordered content sections across major pages",
+    "Kept existing image assets only",
+    "Preserved redirect page behavior",
+    "Kept PageSpeed/mobile/accessibility fixes"
+  ]
+}
